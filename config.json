@@ -1,0 +1,11 @@
+{
+    "app": {
+        "name": "go_mongo_crud_app",
+        "port": ":9080"
+    },
+    "mongo": {
+        "uri": "mongodb://localhost:27017",
+        "db": "clients",
+        "collection": "people"
+    }
+}
