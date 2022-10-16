@@ -19,9 +19,22 @@ type Mongo struct {
 	Collection string `mapstructure:"collection"`
 }
 
+type Redis struct {
+	URI string `mapstructure:"uri"`
+	DB  string `mapstructure:"db"`
+}
+
+type Mysql struct {
+	URI    string   `mapstructure:"uri"`
+	DB     string   `mapstructure:"db"`
+	Tables []string `mapstructure:"tables"`
+}
+
 type Config struct {
 	App
 	Mongo
+	Redis
+	Mysql
 }
 
 // reading configs
