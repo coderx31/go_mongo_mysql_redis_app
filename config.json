@@ -7,5 +7,16 @@
         "uri": "mongodb://localhost:27017",
         "db": "clients",
         "collection": "people"
+    },
+    "redis": {
+        "uri": "",
+        "db": ""
+    },
+    "mysql": {
+        "uri": "",
+        "db": "",
+        "tables": [
+            
+        ]
     }
 }
